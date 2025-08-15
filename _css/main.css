@@ -37,3 +37,51 @@ input{
     background-color: #f0f0f0;
     border: 1px solid #ced4d4;
 }
+
+.area_3{
+grid-area: lateral-e;
+padding: 16px;
+background-color: #f7f7f7;
+margin-right: 16px;
+border-right: 1px solid #ced4d4;
+}
+
+.area_4{
+grid-area: conteudo-1;
+padding: 24px 10px;
+}
+
+.area_5{
+    grid-area: conteudo-2;
+    padding: 24px 10px;
+}
+
+.area_6{
+    grid-area: conteudo-3;
+    padding: 24px 10px;
+}
+
+.area_7{
+    grid-area: conteudo-4;
+    padding: 24px 10px;
+}
+
+.area_8{
+    grid-area: rodape;
+    background-color: #074a71;
+    color: #ffff;
+    padding: 32px 0;
+
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
