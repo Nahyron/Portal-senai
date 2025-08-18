@@ -26,6 +26,9 @@ input{
 }
 
 .area_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-area:cabecalho;
     padding: 16px;
     background-color: #303030;
