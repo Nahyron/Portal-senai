@@ -85,3 +85,18 @@ padding: 24px 10px;
     text-decoration: none;
     color: #fff;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'logo cabecalho cabecalho cabecalho cabecalho'
+    'busca busca busca busca busca'
+    'lateral-e conteudo-1 conteudo-1 conteudo-2 conteudo-2'
+    'lateral-e conteudo-3 conteudo-3 conteudo-4 conteudo-4'
+    'rodape rodape rodape rodape rodape';
+}
+
+.grid-container div{
+    text-align: center;
+    font-size: 30px;
+}
